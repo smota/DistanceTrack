@@ -1,0 +1,5 @@
+googlemaps==4.9.0
+pandas==1.5.3
+python-dotenv==1.0.0
+openlocationcode==1.0.1
+argparse==1.4.0 

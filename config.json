@@ -1,0 +1,38 @@
+{
+    "house_routes": {
+        "origins": [
+            {
+                "name": "Casa Particular Brasschaat",
+                "location": "Bredestraat 33, 2930 Brasschaat",
+                "url": "https://www.immoweb.be/en/classified/house/for-sale/brasschaat/2930/20716172"
+            },
+            {
+                "name": "Casa 2 Brasschaat",
+                "location": "Bethaniëlei 127, 2930 BRASSCHAAT",
+                "url": "https://www.immoweb.be/en/classified/house/for-sale/brasschaat/2930/20718209"
+            }
+        ],
+        "destinations": [
+            {
+                "name": "Marisstella",
+                "location": "7PXC+R2 Malle",
+                "url": "https://maps.google.com/?q=7PXC+R2+Malle"
+            },
+            {
+                "name": "AIPC",
+                "location": "7CJJ+74 Antwerp",
+                "url": "https://maps.google.com/?q=7CJJ++74+Antwerp"
+            },
+            {
+                "name": "Central Station",
+                "location": "6C8C+PF Antwerp",
+                "url": "https://maps.google.com/?q=6C8C++PF+Antwerp"
+            },
+            {
+                "name": "CVC",
+                "location": "Rue Saint-Denis 120, 1190 Forest",
+                "url": "https://maps.google.com/?q=Rue+Saint-Denis+120,+1190+Forest"
+            }
+        ]
+    }
+} 

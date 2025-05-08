@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+1. **Model-First Approach**: Always define or update data models before implementing services or UI. Ensure models follow encapsulation patterns with private fields (`_fieldName`), getters/setters, and validation.
+
+2. **Validation Requirements**: All user input must be validated. Define validation rules in config first, then reference them in model validation methods.
+
+3. **Service Isolation**: Maintain separation between models and services. Services should handle external interactions (Firebase, APIs) while models handle data structure and business logic.
+
+4. **Configuration Centralization**: Add any new constants, defaults, or validation rules to the config file instead of hardcoding values.
+
+5. **Error Handling**: Include try/catch blocks in all async operations with proper error reporting.
+
+6. **Type Safety**: Document parameter and return types with JSDoc annotations.
+
+7. **Testing Considerations**: Structure code to be testable, with pure functions where possible.
+
+8. **Code Style**: Maintain consistent naming (camelCase for variables/methods, PascalCase for classes) and commenting.
+
+
+9. **Project Structure**: Place new files in appropriate directories (models/, services/, components/, views/, etc.).
